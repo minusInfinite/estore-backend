@@ -73,7 +73,7 @@ typings/
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
-!.yarn/version
+!.yarn/versions
 
 # dotenv environment variables file
 .env
