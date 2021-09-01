@@ -35,13 +35,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["dotenv", "npm:8.6.0"],
+            ["dotenv", "npm:10.0.0"],
             ["eslint", "npm:7.32.0"],
             ["express", "npm:4.17.1"],
             ["mysql2", "npm:2.3.0"],
             ["nodemon", "npm:2.0.12"],
             ["prettier", "npm:2.3.2"],
-            ["sequelize", "npm:5.22.4"],
+            ["sequelize", "virtual:d6043ffd2ae6c28e4ef754cac3265f107874acb4c8bb5e2d23c7f35fb1db7d6e3f7b18507325204305a01ebafce68538a9a2ddccf21bc9f7b608fadd32a2dc5b#npm:6.6.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
@@ -466,15 +466,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["bluebird", [
-        ["npm:3.7.2", {
-          "packageLocation": "./.yarn/cache/bluebird-npm-3.7.2-6a54136ee3-869417503c.zip/node_modules/bluebird/",
-          "packageDependencies": [
-            ["bluebird", "npm:3.7.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["body-parser", [
         ["npm:1.19.0", {
           "packageLocation": "./.yarn/cache/body-parser-npm-1.19.0-6e177cabfa-490231b4c8.zip/node_modules/body-parser/",
@@ -691,17 +682,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["clone-response", "npm:1.0.2"],
             ["mimic-response", "npm:1.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["cls-bluebird", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/cls-bluebird-npm-2.1.0-1a11680445-b2da9dc39d.zip/node_modules/cls-bluebird/",
-          "packageDependencies": [
-            ["cls-bluebird", "npm:2.1.0"],
-            ["is-bluebird", "npm:1.0.2"],
-            ["shimmer", "npm:1.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1002,10 +982,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["dotenv", [
-        ["npm:8.6.0", {
-          "packageLocation": "./.yarn/cache/dotenv-npm-8.6.0-2ce3e9f7bb-38e902c80b.zip/node_modules/dotenv/",
+        ["npm:10.0.0", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-10.0.0-36b272df25-f412c5fe8c.zip/node_modules/dotenv/",
           "packageDependencies": [
-            ["dotenv", "npm:8.6.0"]
+            ["dotenv", "npm:10.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1790,10 +1770,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["inflection", [
-        ["npm:1.12.0", {
-          "packageLocation": "./.yarn/cache/inflection-npm-1.12.0-528e724bc4-c640917b7c.zip/node_modules/inflection/",
+        ["npm:1.13.1", {
+          "packageLocation": "./.yarn/cache/inflection-npm-1.13.1-aa8a2a81df-0ae265f710.zip/node_modules/inflection/",
           "packageDependencies": [
-            ["inflection", "npm:1.12.0"]
+            ["inflection", "npm:1.13.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1865,15 +1845,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["is-binary-path", "npm:2.1.0"],
             ["binary-extensions", "npm:2.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["is-bluebird", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/is-bluebird-npm-1.0.2-5cb8e3b80c-3397e7a1e0.zip/node_modules/is-bluebird/",
-          "packageDependencies": [
-            ["is-bluebird", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -2402,13 +2373,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["module-13-challenge-orm", "workspace:."],
-            ["dotenv", "npm:8.6.0"],
+            ["dotenv", "npm:10.0.0"],
             ["eslint", "npm:7.32.0"],
             ["express", "npm:4.17.1"],
             ["mysql2", "npm:2.3.0"],
             ["nodemon", "npm:2.0.12"],
             ["prettier", "npm:2.3.2"],
-            ["sequelize", "npm:5.22.4"],
+            ["sequelize", "virtual:d6043ffd2ae6c28e4ef754cac3265f107874acb4c8bb5e2d23c7f35fb1db7d6e3f7b18507325204305a01ebafce68538a9a2ddccf21bc9f7b608fadd32a2dc5b#npm:6.6.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
@@ -3110,34 +3081,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sequelize", [
-        ["npm:5.22.4", {
-          "packageLocation": "./.yarn/cache/sequelize-npm-5.22.4-f5e060b217-78ba70e0f1.zip/node_modules/sequelize/",
+        ["npm:6.6.5", {
+          "packageLocation": "./.yarn/cache/sequelize-npm-6.6.5-8aa6259255-31f80cdbcf.zip/node_modules/sequelize/",
           "packageDependencies": [
-            ["sequelize", "npm:5.22.4"],
-            ["bluebird", "npm:3.7.2"],
-            ["cls-bluebird", "npm:2.1.0"],
+            ["sequelize", "npm:6.6.5"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:d6043ffd2ae6c28e4ef754cac3265f107874acb4c8bb5e2d23c7f35fb1db7d6e3f7b18507325204305a01ebafce68538a9a2ddccf21bc9f7b608fadd32a2dc5b#npm:6.6.5", {
+          "packageLocation": "./.yarn/__virtual__/sequelize-virtual-80aae0b7b1/0/cache/sequelize-npm-6.6.5-8aa6259255-31f80cdbcf.zip/node_modules/sequelize/",
+          "packageDependencies": [
+            ["sequelize", "virtual:d6043ffd2ae6c28e4ef754cac3265f107874acb4c8bb5e2d23c7f35fb1db7d6e3f7b18507325204305a01ebafce68538a9a2ddccf21bc9f7b608fadd32a2dc5b#npm:6.6.5"],
             ["debug", "virtual:ee1bbcab87c0701d4ea83dd18afa59b10c6343191c17b3a8e7844ecdde3ca8e8977791131460b822baae289e9261b3b228709bc45987d850e69091b4d363edfa#npm:4.3.2"],
             ["dottie", "npm:2.0.2"],
-            ["inflection", "npm:1.12.0"],
+            ["inflection", "npm:1.13.1"],
             ["lodash", "npm:4.17.21"],
+            ["mariadb", null],
             ["moment", "npm:2.29.1"],
             ["moment-timezone", "npm:0.5.33"],
+            ["mysql2", "npm:2.3.0"],
+            ["pg", null],
+            ["pg-hstore", null],
             ["retry-as-promised", "npm:3.2.0"],
-            ["semver", "npm:6.3.0"],
-            ["sequelize-pool", "npm:2.3.0"],
+            ["semver", "npm:7.3.5"],
+            ["sequelize-pool", "npm:6.1.0"],
+            ["sqlite3", null],
+            ["tedious", null],
             ["toposort-class", "npm:1.0.1"],
-            ["uuid", "npm:3.4.0"],
-            ["validator", "npm:10.11.0"],
-            ["wkx", "npm:0.4.8"]
+            ["uuid", "npm:8.3.2"],
+            ["validator", "npm:13.6.0"],
+            ["wkx", "npm:0.5.0"]
+          ],
+          "packagePeers": [
+            "mariadb",
+            "mysql2",
+            "pg-hstore",
+            "pg",
+            "sqlite3",
+            "tedious"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["sequelize-pool", [
-        ["npm:2.3.0", {
-          "packageLocation": "./.yarn/cache/sequelize-pool-npm-2.3.0-02b5476cea-5119bb62fd.zip/node_modules/sequelize-pool/",
+        ["npm:6.1.0", {
+          "packageLocation": "./.yarn/cache/sequelize-pool-npm-6.1.0-20cbfc2997-a6e3311c8b.zip/node_modules/sequelize-pool/",
           "packageDependencies": [
-            ["sequelize-pool", "npm:2.3.0"]
+            ["sequelize-pool", "npm:6.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3188,15 +3178,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/shebang-regex-npm-3.0.0-899a0cd65e-1a2bcae50d.zip/node_modules/shebang-regex/",
           "packageDependencies": [
             ["shebang-regex", "npm:3.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["shimmer", [
-        ["npm:1.2.1", {
-          "packageLocation": "./.yarn/cache/shimmer-npm-1.2.1-8b50bf3206-aa0d6252ad.zip/node_modules/shimmer/",
-          "packageDependencies": [
-            ["shimmer", "npm:1.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3671,10 +3652,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["uuid", [
-        ["npm:3.4.0", {
-          "packageLocation": "./.yarn/cache/uuid-npm-3.4.0-4fd8ef88ad-58de2feed6.zip/node_modules/uuid/",
+        ["npm:8.3.2", {
+          "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",
           "packageDependencies": [
-            ["uuid", "npm:3.4.0"]
+            ["uuid", "npm:8.3.2"]
           ],
           "linkType": "HARD",
         }]
@@ -3689,10 +3670,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["validator", [
-        ["npm:10.11.0", {
-          "packageLocation": "./.yarn/cache/validator-npm-10.11.0-62602d1058-b945e5712a.zip/node_modules/validator/",
+        ["npm:13.6.0", {
+          "packageLocation": "./.yarn/cache/validator-npm-13.6.0-2ca88b50f3-1f9f813228.zip/node_modules/validator/",
           "packageDependencies": [
-            ["validator", "npm:10.11.0"]
+            ["validator", "npm:13.6.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3737,10 +3718,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["wkx", [
-        ["npm:0.4.8", {
-          "packageLocation": "./.yarn/cache/wkx-npm-0.4.8-50b554d0a6-c11a165d3d.zip/node_modules/wkx/",
+        ["npm:0.5.0", {
+          "packageLocation": "./.yarn/cache/wkx-npm-0.5.0-fca5152cd8-47b27387de.zip/node_modules/wkx/",
           "packageDependencies": [
-            ["wkx", "npm:0.4.8"],
+            ["wkx", "npm:0.5.0"],
             ["@types/node", "npm:16.7.10"]
           ],
           "linkType": "HARD",

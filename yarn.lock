@@ -364,13 +364,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:^3.5.0":
-  version: 3.7.2
-  resolution: "bluebird@npm:3.7.2"
-  checksum: 869417503c722e7dc54ca46715f70e15f4d9c602a423a02c825570862d12935be59ed9c7ba34a9b31f186c017c23cac6b54e35446f8353059c101da73eac22ef
-  languageName: node
-  linkType: hard
-
 "body-parser@npm:1.19.0":
   version: 1.19.0
   resolution: "body-parser@npm:1.19.0"
@@ -570,16 +563,6 @@ __metadata:
   dependencies:
     mimic-response: ^1.0.0
   checksum: 2d0e61547fc66276e0903be9654ada422515f5a15741691352000d47e8c00c226061221074ce2c0064d12e975e84a8687cfd35d8b405750cb4e772f87b256eda
-  languageName: node
-  linkType: hard
-
-"cls-bluebird@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "cls-bluebird@npm:2.1.0"
-  dependencies:
-    is-bluebird: ^1.0.2
-    shimmer: ^1.1.0
-  checksum: b2da9dc39dbb4d29f5610b1f50af34e2c41b72d1b50dc7ed5c2ac64fda44390e919ffcf4a8eb18f3387c18756e5e0dffa564fb2256027ed9ec8430e5ffb17ed3
   languageName: node
   linkType: hard
 
@@ -811,10 +794,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^8.2.0":
-  version: 8.6.0
-  resolution: "dotenv@npm:8.6.0"
-  checksum: 38e902c80b0666ab59e9310a3d24ed237029a7ce34d976796349765ac96b8d769f6df19090f1f471b77a25ca391971efde8a1ea63bb83111bd8bec8e5cc9b2cd
+"dotenv@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv@npm:10.0.0"
+  checksum: f412c5fe8c24fbe313d302d2500e247ba8a1946492db405a4de4d30dd0eb186a88a43f13c958c5a7de303938949c4231c56994f97d05c4bc1f22478d631b4005
   languageName: node
   linkType: hard
 
@@ -1514,10 +1497,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"inflection@npm:1.12.0":
-  version: 1.12.0
-  resolution: "inflection@npm:1.12.0"
-  checksum: c640917b7c1ef2151df8eed5e7bc1ea6f6dd7b924e86f1add0bf801db55be8b581eb2d3d767a29e439153e4c06b00679a45853ac58c498ea519c4b4bdcd2a775
+"inflection@npm:1.13.1":
+  version: 1.13.1
+  resolution: "inflection@npm:1.13.1"
+  checksum: 0ae265f710f61320306207501931fe4248dace8e841fb911a33625df68f611bc3736d9f03be5abc5351ae3698c7830e35c400a3a092cd68e93aa3d8cc01cb73a
   languageName: node
   linkType: hard
 
@@ -1579,13 +1562,6 @@ fsevents@~2.3.2:
   dependencies:
     binary-extensions: ^2.0.0
   checksum: 84192eb88cff70d320426f35ecd63c3d6d495da9d805b19bc65b518984b7c0760280e57dbf119b7e9be6b161784a5a673ab2c6abe83abb5198a432232ad5b35c
-  languageName: node
-  linkType: hard
-
-"is-bluebird@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "is-bluebird@npm:1.0.2"
-  checksum: 3397e7a1e008f2711d0e23d722cc5c3a64c610b01604c0779728ceecd2bf5b1a1d16b030ec63ba53d132ae0def31a47296083f104d2029a191c7289818f94e6f
   languageName: node
   linkType: hard
 
@@ -1815,7 +1791,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15":
+"lodash@npm:^4.17.20":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -2046,18 +2022,18 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "module-13-challenge-orm@workspace:."
   dependencies:
-    dotenv: ^8.2.0
+    dotenv: ^10.0.0
     eslint: ^7.32.0
     express: ^4.17.1
-    mysql2: ^2.1.0
-    nodemon: ^2.0.3
+    mysql2: ^2.3.0
+    nodemon: ^2.0.12
     prettier: ^2.3.2
-    sequelize: ^5.21.7
+    sequelize: ^6.6.5
     typescript: 4.3.5
   languageName: unknown
   linkType: soft
 
-"moment-timezone@npm:^0.5.21":
+"moment-timezone@npm:^0.5.31":
   version: 0.5.33
   resolution: "moment-timezone@npm:0.5.33"
   dependencies:
@@ -2066,7 +2042,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"moment@npm:>= 2.9.0, moment@npm:^2.24.0":
+"moment@npm:>= 2.9.0, moment@npm:^2.26.0":
   version: 2.29.1
   resolution: "moment@npm:2.29.1"
   checksum: 1e14d5f422a2687996be11dd2d50c8de3bd577c4a4ca79ba5d02c397242a933e5b941655de6c8cb90ac18f01cc4127e55b4a12ae3c527a6c0a274e455979345e
@@ -2101,7 +2077,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"mysql2@npm:^2.1.0":
+"mysql2@npm:^2.3.0":
   version: 2.3.0
   resolution: "mysql2@npm:2.3.0"
   dependencies:
@@ -2160,7 +2136,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.3":
+"nodemon@npm:^2.0.12":
   version: 2.0.12
   resolution: "nodemon@npm:2.0.12"
   dependencies:
@@ -2630,7 +2606,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.2.1, semver@npm:^7.3.5":
+"semver@npm:^7.2.1, semver@npm:^7.3.2, semver@npm:^7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
@@ -2669,33 +2645,44 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"sequelize-pool@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "sequelize-pool@npm:2.3.0"
-  checksum: 5119bb62fd0d57cf30f001adee69f4cd6e381f5cd4fc35be607cf838b9b05415bde984c093e1cc0b3477a0e475eb3835851e9d21581fa0c9aeb4c7f98493e30a
+"sequelize-pool@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "sequelize-pool@npm:6.1.0"
+  checksum: a6e3311c8b37927fcc9e5491844e430f061f5b9f04a598f0778ae38cbe61f59ae4643283d877ab8d3e86e34a8aa75c6bd4f4a4aa774b47e1b4a643f6bfb3795a
   languageName: node
   linkType: hard
 
-"sequelize@npm:^5.21.7":
-  version: 5.22.4
-  resolution: "sequelize@npm:5.22.4"
+"sequelize@npm:^6.6.5":
+  version: 6.6.5
+  resolution: "sequelize@npm:6.6.5"
   dependencies:
-    bluebird: ^3.5.0
-    cls-bluebird: ^2.1.0
     debug: ^4.1.1
     dottie: ^2.0.0
-    inflection: 1.12.0
-    lodash: ^4.17.15
-    moment: ^2.24.0
-    moment-timezone: ^0.5.21
+    inflection: 1.13.1
+    lodash: ^4.17.20
+    moment: ^2.26.0
+    moment-timezone: ^0.5.31
     retry-as-promised: ^3.2.0
-    semver: ^6.3.0
-    sequelize-pool: ^2.3.0
+    semver: ^7.3.2
+    sequelize-pool: ^6.0.0
     toposort-class: ^1.0.1
-    uuid: ^3.3.3
-    validator: ^10.11.0
-    wkx: ^0.4.8
-  checksum: 78ba70e0f1056d6c83c222f6261073601e0535b4ff54a8ae00ee40f3b1b2e8937a5e1859d56f5962c764b0f17e1fac240342d1528b358aa357a4dce545c173eb
+    uuid: ^8.1.0
+    validator: ^13.6.0
+    wkx: ^0.5.0
+  peerDependenciesMeta:
+    mariadb:
+      optional: true
+    mysql2:
+      optional: true
+    pg:
+      optional: true
+    pg-hstore:
+      optional: true
+    sqlite3:
+      optional: true
+    tedious:
+      optional: true
+  checksum: 31f80cdbcfc6596786a77dfe1b2809f6bf75f4dc2438a024fa89938d6b12bb2bd147e07ad1295c5367305f65efd511b4aa087327911759ab576cec32fcc160c0
   languageName: node
   linkType: hard
 
@@ -2738,13 +2725,6 @@ fsevents@~2.3.2:
   version: 3.0.0
   resolution: "shebang-regex@npm:3.0.0"
   checksum: 1a2bcae50de99034fcd92ad4212d8e01eedf52c7ec7830eedcf886622804fe36884278f2be8be0ea5fde3fd1c23911643a4e0f726c8685b61871c8908af01222
-  languageName: node
-  linkType: hard
-
-"shimmer@npm:^1.1.0":
-  version: 1.2.1
-  resolution: "shimmer@npm:1.2.1"
-  checksum: aa0d6252ad1c682a4fdfda69e541be987f7a265ac7b00b1208e5e48cc68dc55f293955346ea4c71a169b7324b82c70f8400b3d3d2d60b2a7519f0a3522423250
   languageName: node
   linkType: hard
 
@@ -3185,12 +3165,12 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"uuid@npm:^3.3.3":
-  version: 3.4.0
-  resolution: "uuid@npm:3.4.0"
+"uuid@npm:^8.1.0":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2"
   bin:
-    uuid: ./bin/uuid
-  checksum: 58de2feed61c59060b40f8203c0e4ed7fd6f99d42534a499f1741218a1dd0c129f4aa1de797bcf822c8ea5da7e4137aa3673431a96dae729047f7aca7b27866f
+    uuid: dist/bin/uuid
+  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
   languageName: node
   linkType: hard
 
@@ -3201,10 +3181,10 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"validator@npm:^10.11.0":
-  version: 10.11.0
-  resolution: "validator@npm:10.11.0"
-  checksum: b945e5712af888fc5c984312cf9a7736d16a03f989556291d7984e5747efaaee6cdff671f6b0ef2630a6e2866a2728ab0f341877b878a9ffb8ad770dfcad7170
+"validator@npm:^13.6.0":
+  version: 13.6.0
+  resolution: "validator@npm:13.6.0"
+  checksum: 1f9f813228a709d993b965813ad9d8ce009717bec64f57a0ac40d5f50ef781ee47260f85741e125775823fb31aa3beb7f974e0f5fb1afe9bc4615b7fadd7f8bb
   languageName: node
   linkType: hard
 
@@ -3244,12 +3224,12 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"wkx@npm:^0.4.8":
-  version: 0.4.8
-  resolution: "wkx@npm:0.4.8"
+"wkx@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "wkx@npm:0.5.0"
   dependencies:
     "@types/node": "*"
-  checksum: c11a165d3d2effe0764eb04f2cb634528a485b2215aa373ca535bded9bfe016a107f3e96fd99b6f771e579b0603a378f4746d68661b22e70929660eb6b01dd69
+  checksum: 47b27387de81fbd077528c1c11be996bf5a6dbeb94858ea0e2fa6619c2af626aa2f127f6fee1b4b57057a7cbef8a810b39a67815f2eb54ed33b1790e29db86ee
   languageName: node
   linkType: hard
 
