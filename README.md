@@ -23,7 +23,7 @@ If successful, you can open a new terminal and run `yarn seed` to populate the s
 
 ## End Points
 
-![Postman Documentation link](https://img.shields.io/badge/Docs-View%20in%20Postman-orange)
+[![Postman Documentation link](https://img.shields.io/badge/Docs-View%20in%20Postman-orange)](https://documenter.getpostman.com/view/11790768/U16gP74m)
 
 End points for <https://github.com/minusInfinite/estore-backend>
 
