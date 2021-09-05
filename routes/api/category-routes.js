@@ -17,16 +17,16 @@ router.get("/:id", async (req, res) => {
     // find one category by its `id` value
     // be sure to include its associated Products
     try {
-        const productData = await Category.findByPk(req.params.id, {
+        const categoryData = await Category.findByPk(req.params.id, {
             include: [{ model: Product }],
         })
 
-        if (!productData) {
+        if (!categoryData) {
             res.status(404).json({ message: "No reader found with that id!" })
             return
         }
 
-        res.status(200).json(productData)
+        res.status(200).json(categoryData)
     } catch (e) {
         res.status(500).json(e)
     }
@@ -74,7 +74,7 @@ router.delete("/:id", async (req, res) => {
             return
         }
 
-        res.status(200).json(categoryData)
+        res.status(200).json(`Deleted ${req.params.id}`)
     } catch (err) {
         res.status(500).json(err)
     }
