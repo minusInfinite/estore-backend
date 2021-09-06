@@ -2,6 +2,8 @@
 
 A Store REST API built with Express JS, MySQL and Sequelize
 
+[Video Demo](https://youtu.be/axbreijhWV4)
+
 ## Contents
 
 [Local Installation](#local-installation)
